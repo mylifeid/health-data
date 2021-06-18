@@ -5,7 +5,7 @@ namespace mylifeid\HealthData;
 class DataExchange
 {
 
-    private $baseurl = 'http://localhost/mylifeid/api/';
+    private $baseurl = 'https://users.mylifeid.com/api/';
 
     public function authorize($request)
     {
