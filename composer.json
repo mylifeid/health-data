@@ -1,0 +1,20 @@
+{
+    "name": "mylifeid/healthdata",
+    "description": "Package to allow third party users to connect to users.mylifeid.com and fetch and put patient's data using their pocket cloud card ID",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MyLifeID",
+            "email": "support@mylifeid.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+	        "mylifeid\\HealthData\\": "src/"
+	    },
+	    "files":["src/Helper.php"]
+    },
+    "require": {}
+}
